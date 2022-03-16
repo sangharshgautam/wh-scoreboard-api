@@ -64,3 +64,5 @@
 
 ![image](https://user-images.githubusercontent.com/4318051/158621829-9f965ab5-c748-4c99-9db1-b5d2f8a872f9.png)
 
+
+**Ref:** https://www.continuum.be/blog/sending-stomp-messages-over-a-websocket-in-spring-boot-2/
