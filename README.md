@@ -12,7 +12,7 @@
 
 **Out of scope:**
 1. RBAC model not implemented
-2. Form based authentication used(idealy jwt should be used)
+2. Form based authentication used to get a jwt token
 3. No Authorization atm
 4. Spring SIMP/Stomp used.
 5. In memory database H2 has been used for persistence.
