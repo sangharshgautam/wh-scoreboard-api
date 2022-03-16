@@ -36,7 +36,7 @@ module.exports = function (config) {
     },
     // the default configuration
     junitReporter: {
-      outputDir: 'junit-report', // results will be saved as $outputDir/$browserName.xml
+      outputDir: 'karma-reports', // results will be saved as $outputDir/$browserName.xml
       outputFile: undefined, // if included, results will be saved as $outputDir/$browserName/$outputFile
       suite: '', // suite will become the package name attribute in xml testsuite element
       useBrowserName: true, // add browser name to report and classes names

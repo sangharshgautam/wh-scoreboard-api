@@ -18,8 +18,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@TestPropertySource(
-        locations = "classpath:application-integration.properties")
+//@TestPropertySource(
+//        locations = "classpath:application-integration.properties")
 public class TeamScoreControllerIT {
     @Autowired
     private MockMvc mvc;
