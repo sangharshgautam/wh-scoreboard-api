@@ -60,5 +60,7 @@
 7.  The changes will flow through the messaging system then to the viewer browser using websocket automatically
 ![image](https://user-images.githubusercontent.com/4318051/158621252-e2b5b257-0c57-4e5c-aa45-848df047e544.png)
 
-**
-Component diagram to illustrate **
+**Component diagram to illustrate **
+
+![image](https://user-images.githubusercontent.com/4318051/158621829-9f965ab5-c748-4c99-9db1-b5d2f8a872f9.png)
+
