@@ -29,3 +29,4 @@ jobs:
         files: |
           target/surefire-reports/**/*.xml
           target/failsafe-reports/**/*.xml
+          src/main/web/karma-reports/**/*.xml
