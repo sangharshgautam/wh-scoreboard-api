@@ -1,4 +1,4 @@
-# wh-scoreboard-api
+# Scoreboard
 
 **Requirement**
 1. Create a service to create, find and update scoreboard
