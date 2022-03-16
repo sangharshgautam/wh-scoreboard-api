@@ -8,15 +8,15 @@
 **Objective**
 1. Working model
 2. Demostrate use of unit, IT and code coverage
-3.
+3. Frameworks/tech: Spring, hibernate/jpa, angular 
 
 **Out of scope:**
 1. RBAC model not implemented
 2. Form based authentication used(idealy jwt should be used)
-3. No Authorization
-4. Spring SIMP used.
+3. No Authorization atm
+4. Spring SIMP/Stomp used.
 5. In memory database H2 has been used for persistence.
-6. Tests have been written for important classes and methods
+6. Tests have been written for important classes and methods only
 7. unit tests have been written for front end using jasmine/karma
 8. unit tests for backend are using junit/mockito
 9. CRUD operations are available for all entities but all may not be needed
@@ -29,12 +29,9 @@
 3. Api documentation is available at https://wh-scorecard-api.herokuapp.com/swagger-ui/index.html
 
 
+**Note:**
+1. Some class names may not make sense as part of the code has been taken from my existing private repo.
 
-
-
-
-1. Some class names may not make sense as some part of the code has been taken from my existing repo.
-2.
 
 **DML available below**
 ![image](https://user-images.githubusercontent.com/4318051/158604289-d7bbe9d6-25f9-42ef-9e55-3f1ac1e49d17.png)
@@ -63,6 +60,10 @@
 **Component diagram to illustrate **
 
 ![image](https://user-images.githubusercontent.com/4318051/158621829-9f965ab5-c748-4c99-9db1-b5d2f8a872f9.png)
+
+
+**Swagger APi Documentation:**
+![image](https://user-images.githubusercontent.com/4318051/158622847-ea82e7f4-cd53-43a0-812e-45c71cd7ccbe.png)
 
 
 **Ref:** https://www.continuum.be/blog/sending-stomp-messages-over-a-websocket-in-spring-boot-2/
