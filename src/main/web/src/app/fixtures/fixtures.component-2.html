@@ -1,0 +1,23 @@
+<nz-table #basicTable [nzData]="games">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Teams</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let game of basicTable.data">
+    <td>{{ game.id }}</td>
+    <td>{{ getTeamNames(game) }}</td>
+    <td>
+      <a [routerLink]="['/game', game.id, 'scoreboard', 'view']" routerLinkActive="active">Scoreboard</a>
+      <nz-divider nzType="vertical"></nz-divider>
+      <a [routerLink]="['/game', game.id, 'scoreboard', 'manage']" routerLinkActive="active">Manage Scores</a>
+      <nz-divider nzType="vertical"></nz-divider>
+      <a>Delete</a>
+    </td>
+  </tr>
+  </tbody>
+</nz-table>
+

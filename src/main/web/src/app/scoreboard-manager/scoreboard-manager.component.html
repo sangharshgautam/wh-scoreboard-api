@@ -1,0 +1,24 @@
+<div style="background: #ECECEC;padding:30px;">
+  <nz-card style="width:350px;" [nzBordered]="false" nzTitle={{getTeamNames()}} [nzExtra]="extraTemplate" >
+    <nz-table #scoreTable [nzData]="teamScores" [nzLoading]="loading$ | async" nzShowPagination="false">
+      <thead>
+      <tr>
+        <th *ngFor="let teamScore of scoreTable.data; let i = index" nzAlign="center">{{teamScore.team?.name}}</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td *ngFor="let teamScore of scoreTable.data" nzAlign="center">
+          <button nz-button nzType="primary" nzShape="circle" nzSize="small" (click)="decreaseScore(teamScore.id, teamScore.score)"><i nz-icon nzType="minus" nzTheme="outline"></i></button>
+          <nz-divider nzType="vertical"></nz-divider>
+          {{ teamScore.score }}
+          <nz-divider nzType="vertical"></nz-divider>
+          <button nz-button nzType="primary" nzShape="circle" nzSize="small" (click)="increaseScore(teamScore.id, teamScore.score)"><i nz-icon nzType="plus" nzTheme="outline"></i></button></td>
+      </tr>
+      </tbody>
+    </nz-table>
+  </nz-card>
+</div>
+<ng-template #extraTemplate>
+  <a>More</a>
+</ng-template>
