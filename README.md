@@ -38,10 +38,25 @@
 
 **DML available below**
 ![image](https://user-images.githubusercontent.com/4318051/158604289-d7bbe9d6-25f9-42ef-9e55-3f1ac1e49d17.png)
-![image](https://user-images.githubusercontent.com/4318051/158610970-8b16ffa8-9422-4e28-b8b3-2a4de86d41df.png)
 
 
+Step to run the demo:
+1. Goto the url
+ ![image](https://user-images.githubusercontent.com/4318051/158612188-1e033ef5-441d-4314-8783-eb6c32d3e9a7.png)
 
+2. Login using the provided url (call it viewer)
+ ![image](https://user-images.githubusercontent.com/4318051/158612822-37cd4063-b147-4ddd-bea5-cca6f1de345d.png)
+
+
+3. In Another window open the same url with the same credentials (call it management)
+ 
+4. In Management Click Manage to a scorecard
+  ![image](https://user-images.githubusercontent.com/4318051/158612988-77a11b88-964e-46b2-b12d-0524538b3236.png) 
+
+5.  us button +  or - to increase or decrease the score of that match
+ ![image](https://user-images.githubusercontent.com/4318051/158613177-3d4901d7-f9a9-42e0-9853-16ddd2e1f588.png) 
+
+7.  The changes will flow through the messaging system then to the viewer browser using websocket automatically
 
 
 Component diagram to illustrate 
