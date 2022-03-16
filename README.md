@@ -41,7 +41,7 @@
 
 
 Step to run the demo:
-1. Goto the url
+1. Goto the url https://wh-scorecard-web.herokuapp.com/
  ![image](https://user-images.githubusercontent.com/4318051/158612188-1e033ef5-441d-4314-8783-eb6c32d3e9a7.png)
 
 2. Login using the provided url (call it viewer)
