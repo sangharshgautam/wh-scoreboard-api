@@ -46,18 +46,19 @@
 ![image](https://user-images.githubusercontent.com/4318051/158614643-bc530755-b94f-444e-9dc4-5ed8e0d0675b.png)
 
 2. Login using the provided url (call it viewer)
-![image](https://user-images.githubusercontent.com/4318051/158614334-322cc3b4-4459-4994-a28d-4d5e0c963f62.png)
+![image](https://user-images.githubusercontent.com/4318051/158620758-c03af8eb-7ae6-463b-b035-c28a3aacf8e9.png)
 
 
 3. In Another window open the same url with the same credentials (call it management)
  
 4. In Management Click Manage to a scorecard
-![image](https://user-images.githubusercontent.com/4318051/158614026-8f7d7666-8e7d-46a6-a927-6c2d9414ab23.png)
+![image](https://user-images.githubusercontent.com/4318051/158620558-75579b19-92f8-45fb-8710-27211fec3834.png)
 
 5.  us button +  or - to increase or decrease the score of that match
  ![image](https://user-images.githubusercontent.com/4318051/158613177-3d4901d7-f9a9-42e0-9853-16ddd2e1f588.png) 
 
 7.  The changes will flow through the messaging system then to the viewer browser using websocket automatically
+![image](https://user-images.githubusercontent.com/4318051/158621252-e2b5b257-0c57-4e5c-aa45-848df047e544.png)
 
-
-Component diagram to illustrate 
+**
+Component diagram to illustrate **
