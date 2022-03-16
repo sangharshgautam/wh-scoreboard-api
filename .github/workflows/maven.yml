@@ -26,4 +26,6 @@ jobs:
       uses: EnricoMi/publish-unit-test-result-action@v1
       if: always()
       with:
-        files: "target/surefire-reports/**/*.xml,target/failsafe-reports/**/*.xml"
+        files: |
+        target/surefire-reports/**/*.xml
+        target/failsafe-reports/**/*.xml
